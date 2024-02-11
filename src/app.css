@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	font-family: 'Inter', sans-serif;
+}
+
+h1 {
+	@apply lg:text-8xl md:text-5xl text-4xl  font-semibold;
+}
+
+h2 {
+	@apply text-[32px] sm:text-[40px] md:text-[60px] lg:text-[80px] font-semibold;
+}
+
+h3 {
+	@apply text-3xl md:text-4xl lg:text-5xl font-semibold;
+}
+
+h4 {
+	@apply text-4xl font-semibold;
+}
+
+h5 {
+	@apply text-3xl font-semibold;
+}
+
+h6 {
+	@apply text-xl;
+}
+
+p {
+	@apply text-sm lg:text-base font-medium;
+}

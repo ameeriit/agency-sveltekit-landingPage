@@ -37,7 +37,7 @@ export default {
 				}
 			},
 			animation: {
-				scrollInfiniteX: 'scrollInfiniteX 200s linear infinite'
+				scrollInfiniteX: 'scrollInfiniteX 3000s linear infinite'
 			}
 		}
 	},
